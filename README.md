@@ -66,8 +66,8 @@ Ikuti langkah-langkah berikut untuk menjalankan **AyuBukuTamu** di komputer/serv
     Tambahkan Token Fonnte dan konfigurasi SMTP Gmail Anda di file .env:
 
     Cuplikan kode
+    ```bash
     FONNTE_TOKEN=masukkan_token_fonnte_anda_disini
-
     MAIL_MAILER=smtp
     MAIL_HOST=smtp.gmail.com
     MAIL_PORT=465
@@ -76,7 +76,7 @@ Ikuti langkah-langkah berikut untuk menjalankan **AyuBukuTamu** di komputer/serv
     MAIL_ENCRYPTION=ssl
     MAIL_FROM_ADDRESS=email_anda@gmail.com
     MAIL_FROM_NAME="AyuBukuTamu"
-7. **Jalankan Aplikasi**
+8. **Jalankan Aplikasi**
    ```bash
    npm run dev
    php artisan serve
